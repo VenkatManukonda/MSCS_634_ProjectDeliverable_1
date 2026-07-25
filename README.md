@@ -11,7 +11,7 @@ The dataset is appropriate for this project because it:
 contains more than 500 records,
 includes both categorical and numerical variables,
 supports exploration of relationships between claims, spending, and healthcare product categories,
-provides a strong foundation for future regression, classification, clustering, and association-rule work.
+provides a strong foundation for future work in regression, classification, clustering, and association rules.
 
 ## Major Steps Taken
 Loaded the dataset directly from the CMS API using Python.
@@ -28,9 +28,3 @@ Some generic healthcare categories appear to account for a large share of spendi
 Some columns contained missing values, which were handled by filling numeric values with medians and categorical values with placeholders.
 The Year column had mixed formats, so a cleaning function was used to extract a consistent numeric year.
 The spending variable showed possible outliers, which were identified using the IQR method for awareness during analysis.
-
-## Files Included
-MSCS_634_ProjectDeliverable_1.ipynb: main notebook with code, comments, and visualizations
-cms_healthcare_claims_cleaned.csv: cleaned dataset exported for reuse
-
-# MSCS_634_ProjectDeliverable_2
