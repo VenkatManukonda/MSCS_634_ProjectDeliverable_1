@@ -1,4 +1,4 @@
-# MSCS 634 Project Deliverable 2
+# MSCS_634_ProjectDeliverable_2
 ## Regression Modeling and Performance Evaluation
 
 ### Dataset and Modeling Process
