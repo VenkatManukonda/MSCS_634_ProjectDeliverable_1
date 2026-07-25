@@ -1,5 +1,8 @@
 # MSCS 634 Residency Project
 
+## Authors
+Asha Kilaru and Venkatappareddy Monukonda
+
 ## Medicare Quarterly Part B Spending by Drug Analysis
 
 This repository presents a comprehensive analysis of the CMS Medicare Quarterly Part B Spending by Drug dataset using a range of data mining and machine learning techniques. The project was completed in multiple phases, with each deliverable building on the previous one to develop a deeper understanding of Medicare spending patterns and drug utilization.
@@ -94,6 +97,3 @@ The analysis is based on the CMS Medicare Quarterly Part B Spending by Drug data
 - Combining multiple analytical techniques produced a broader understanding of Medicare drug utilization than any individual method alone.
 
 ---
-
-## Authors
-Asha Kilaru and Venkatappareddy Monukonda
