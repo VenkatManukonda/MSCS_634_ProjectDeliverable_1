@@ -1,15 +1,17 @@
 # MSCS 634 Residency Project
 
-## Medicare Part B Drug Spending Analysis Using Data Mining Techniques
+## Medicare Quarterly Part B Spending by Drug Analysis
 
-This repository contains our work for the MSCS 634 Residency Project. The project analyzes the CMS Medicare Quarterly Part B Spending by Drug dataset using a combination of supervised and unsupervised learning techniques. Rather than relying on a single analytical approach, the project explores the data through regression, classification, clustering, and association rule mining to better understand spending patterns and utilization behavior.
+This repository presents a comprehensive analysis of the CMS Medicare Quarterly Part B Spending by Drug dataset using a range of data mining and machine learning techniques. The project was completed in multiple phases, with each deliverable building on the previous one to develop a deeper understanding of Medicare spending patterns and drug utilization.
 
-The project was completed in three deliverables, with each phase building on the work completed in the previous stage.
+Rather than focusing on a single modeling approach, the project combines data preparation, exploratory analysis, regression, classification, clustering, and association rule mining to examine the dataset from multiple perspectives. Each phase contributes different insights that together provide a more comprehensive understanding of spending behavior.
+
+---
 
 ## Repository Structure
 
 ```
-MSCS_634_Residency_Project/
+MSCS_634_Final_Project/
 │
 ├── Dataset/
 │   └── cms_healthcare_claims_cleaned.csv
@@ -26,30 +28,44 @@ MSCS_634_Residency_Project/
 │   ├── ProjectDeliverable3.ipynb
 │   └── README.md
 │
+├── MSCS_634_ProjectDeliverable_4/
+│   ├── Residency_Project_Report.docx
+│
 └── README.md
 ```
 
-## Deliverables
+---
 
-**Deliverable 1**
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Feature preparation
-- Creation of the cleaned dataset
+## Project Objectives
 
-**Deliverable 2**
-- Regression modeling
-- Model comparison and evaluation
-- Analysis of Medicare spending trends
+The primary objective of this project was to investigate factors associated with Medicare Part B drug spending by applying multiple data mining techniques. Throughout the project, we sought to:
 
-**Deliverable 3**
-- Classification of high-spending records
-- K-Means clustering
-- Principal Component Analysis (PCA)
-- Association Rule Mining using Apriori
-- Model evaluation and interpretation
+- Prepare and clean the dataset for analysis.
+- Explore spending and utilization patterns through exploratory data analysis.
+- Develop predictive models using regression and classification.
+- Identify natural groupings using clustering.
+- Discover meaningful relationships through association rule mining.
+- Interpret the results and provide practical recommendations based on the findings.
 
-## Tools and Libraries
+---
+
+## Project Summary
+
+### Deliverable 1
+Focused on data preparation, including cleaning the dataset, handling missing values, performing exploratory data analysis, and creating features for subsequent modeling.
+
+### Deliverable 2
+Applied regression techniques to examine relationships between utilization measures and Medicare spending while comparing model performance.
+
+### Deliverable 3
+Expanded the analysis by implementing classification models, K-Means clustering, Principal Component Analysis (PCA), and association rule mining to uncover additional patterns within the data.
+
+### Deliverable 4
+Consolidated the complete project into a final report, integrated notebook, presentation, and project recommendations while discussing ethical considerations and future improvements.
+
+---
+
+## Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -60,10 +76,24 @@ MSCS_634_Residency_Project/
 - Matplotlib
 - Seaborn
 
+---
+
 ## Dataset
 
-The project uses a cleaned version of the CMS Medicare Quarterly Part B Spending by Drug dataset prepared during Deliverable 1. The same dataset is used throughout all subsequent analyses to maintain consistency across the different modeling techniques.
+The analysis is based on the CMS Medicare Quarterly Part B Spending by Drug dataset. A cleaned version of the dataset, created during Deliverable 1, is used throughout the project to ensure consistency across all analyses.
 
-## Summary
+---
 
-By combining predictive modeling, clustering, and pattern discovery, this project examines Medicare drug spending from multiple perspectives. Each deliverable contributes a different stage of the analysis, providing a broader understanding of utilization patterns and spending behavior than any single technique could offer on its own.
+## Key Findings
+
+- Data preparation and feature engineering improved the quality of the dataset for modeling.
+- Regression models provided insight into factors associated with Medicare spending.
+- Naive Bayes achieved the strongest overall classification performance based on the F1 score.
+- K-Means clustering identified distinct utilization and spending groups within the data.
+- Association rule mining revealed strong relationships among beneficiary counts, claim volumes, and spending characteristics.
+- Combining multiple analytical techniques produced a broader understanding of Medicare drug utilization than any individual method alone.
+
+---
+
+## Authors
+Asha Kilaru and Venkatappareddy Monukonda
