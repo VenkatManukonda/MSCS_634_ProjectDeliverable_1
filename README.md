@@ -32,7 +32,10 @@ MSCS_634_Final_Project/
 │   └── README.md
 │
 ├── MSCS_634_ProjectDeliverable_4/
+│   ├── ProjectDeliverable4.ipynb
 │   ├── Residency_Project_Report.docx
+│   ├── Residency_Project_Presentation.pptx
+│   └── README.md
 │
 └── README.md
 ```
